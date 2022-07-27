@@ -1,0 +1,209 @@
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  color: #866ec7; }
+  a:hover, a:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+button {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  button:hover, button:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #000; }
+
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #3A424F;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative; 
+}
+  #sidebar .h6 {
+    color: #fff; }
+  #sidebar.active {
+    margin-left: -250px; }
+    #sidebar.active .custom-menu {
+      margin-right: -50px; }
+  #sidebar h1 {
+    margin-bottom: 20px;
+    font-weight: 700; }
+    #sidebar h1 .logo {
+      color: #fff; }
+  #sidebar ul.components {
+    padding: 0; }
+  #sidebar ul li {
+    font-size: 16px; }
+    #sidebar ul li > ul {
+      margin-left: 10px; }
+      #sidebar ul li > ul li {
+        font-size: 14px; }
+    #sidebar ul li a {
+      padding: 10px 0;
+      display: block;
+      color: rgba(255, 255, 255, 0.8);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+      #sidebar ul li a:hover {
+        color: #fff; }
+    #sidebar ul li.active > a {
+      background: transparent;
+      color: #fff; }
+  @media (max-width: 991.98px) {
+      
+      #sidebar {
+        margin-left: -250px; 
+      }
+      #sidebar.active {
+        margin-left: 0; 
+      }
+      #sidebar .custom-menu {
+        margin-right: -50px !important;
+        top: 10px !important; 
+      } 
+
+  }
+
+  #sidebar .custom-menu {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: -20px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      #sidebar .custom-menu {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none; } 
+
+    }
+      #sidebar .custom-menu .btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; 
+      }
+
+      #sidebar .custom-menu .btn.btn-primary {
+        background: #06C4C4;
+        border-color: #06C4C4; }
+        #sidebar .custom-menu .btn.btn-primary:hover, #sidebar .custom-menu .btn.btn-primary:focus {
+          background: #06C4C4 !important;
+          border-color: #06C4C4 !important; }
+
+a[data-toggle="collapse"] {
+  position: relative; }
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+  @media (max-width: 991.98px) {
+    #sidebarCollapse span {
+      display: none; 
+    } 
+  }
+
+#content {
+  width: 100%;
+  padding: 0;
+  min-height: 100vh;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.reg-signupform input{
+  background-color: inherit;
+}
+
+.supvisorRegBtn {
+  width: 20%;
+  background-color: #000f3c;
+  font-weight: bold;
+  color: #06C4C4;
+  transition: .5s;
+}
+
+.supvisorRegBtn:hover{
+  /*background-color: ;*/
+  color: #25FFFF;
+}
+
+/* PROJECT LIST PAGE*/
+.projlista-cont{
+  border-bottom: 1px solid grey;
+  padding: 20px 0;
+}
+.projlista{
+  background-color: #000f3c;
+  border: 1px solid #000f3c;
+  color:white;
+  transition: .3s;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.plus-sign{
+   background-color: #000f3c; 
+   color: white;border: 2px solid #000f3c;
+   display: flex; padding: 11px;
+   border-radius: 50%;
+   align-items: center;
+}
+.projlista:hover,
+.plus-sign:hover{
+  background-color: inherit;
+  color: #000f3c;
+}
+
+
+
+
+
+/*======================== MEDIA QUERIES START HERE======================*/
+@media (max-width:360px){
+  .orange-cont{
+    width: 90%;
+  }
+  .image-item{
+    width: 90%;
+    height: 420px;
+    top: 40px;
+    left: 40px;
+    /*box-shadow: 5px 5px 5px grey;*/
+  }
+}
+
+@media (min-width:601px){
+  
+}
+
+@media (min-width:992px){
+  
+}

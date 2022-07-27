@@ -1,0 +1,85 @@
+body{
+	background-color: #000f3c;
+}
+a:hover{
+ 	text-decoration: none;
+}
+
+.indexnav{
+	background-color:inherit;
+}
+
+nav a{
+	color: white;
+}
+
+.home-text h1{
+	color: #25FFFF;
+	border-bottom: 1px solid #EE4B79;
+	font-style: italic;
+}
+
+.home-text p{
+	color:white;
+	word-spacing: 8px;
+	line-height: 30px; 
+	text-align: justify; 
+}
+.homenavlink a{
+	color: #EE4B79;
+}
+
+.reg-logBtn div{
+	border: 1px solid #25FFFF;
+	width: 60%;
+	color: #25FFFF;
+	border-radius: 5px ;
+	transition: .4s;
+}
+
+.reg-logBtn a{
+	border-radius: 5px;
+	padding: 10px 50px;
+	color:#25FFFF;
+}
+
+.reg-logBtn div:hover{
+	cursor: pointer;
+	box-shadow: 5px 5px 5px #049797;
+}
+
+
+/* REGISTER*/
+
+.reg-main{
+	border: 1px solid #ddd;
+	margin-top: 9%;
+	background-color: white;
+	box-shadow: 5px 5px 5px #ddd;
+}
+.reg-signupform{
+	border-bottom: 1px solid grey;
+	width: 80%;
+}
+
+.reg-signupform input{
+	width: 95%;
+	outline: none;
+	border: none;
+	padding: 5px 8px;
+}
+
+input:focus::-webkit-input-placeholder {
+      color: #222; }
+
+@media (max-width: 600px){
+	.hero-cont{
+		padding: 0 30px;
+		margin-top: 70px;
+		display: block;
+	}
+
+	.reg-logBtn div{
+		margin-top: 8px;
+	}
+}
